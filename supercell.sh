@@ -2,10 +2,6 @@
 echo -e "establish a supercell from a unit cell"
 echo -e "Please input the number of the atoms:\c"
 read atomnumber
-echo -e "Please input the types of the atoms:\c"
-read atomtypes
-echo -e "Please in put the lattice paremeters\na   b  c  cos(ab)  cos(bc) cos(ac)"
-read a b c Calpha Cbeta Cgamma
 echo -e "please input the rule for supercell\n x1  y2  z3 "
 read x1 y2 z3
 if [ -f input.txt ];then
