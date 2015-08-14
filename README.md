@@ -2,7 +2,7 @@
 I set up this project simply for generating Cartesian coordinates to be used in a slab first-principle calculation. Because the Cartesian coordinates stay unchanged when I add different height of vacuum. There are two bash script in this project.
 - supercell.sh
 - dirtocar.sh
-###Usage
+### Usage
 -First step, just run
 ```shell
  $ ./supercell.sh
