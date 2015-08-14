@@ -5,7 +5,7 @@ I set up this project simply for generating Cartesian coordinates to be used in 
 
 
 ##Usage
--First step, just run
+First step, just run
 ```shell
  $ ./supercell.sh
  ```
