@@ -26,8 +26,8 @@ kcountx=0
               kcountz=0
               while [ $kcountz -lt $z3 ]; do
               x=`echo $x1 $kcountx $xx|awk '{printf "%0.8f\n", 1/$1*$2+$3/$1}'`
-              y=`echo $y2 $kcounty $a $b $yy|awk '{printf "%0.8f\n", 1/$1*$2*$4/$3+$5/$1}'`
-              z=`echo $z3 $kcountz $a $c $zz|awk '{printf "%0.8f\n", 1/$1*$2*$4/$3+$5/$1}'`
+              y=`echo $y2 $kcounty $yy|awk '{printf "%0.8f\n", 1/$1*$2+$3/$1}'`
+              z=`echo $z3 $kcountz $zz|awk '{printf "%0.8f\n", 1/$1*$2+$3/$1}'`
               echo "$x   $y   $z"
               kcountz=$((kcountz+1));
               echo $atomtype $x $y $z >>input.txt
